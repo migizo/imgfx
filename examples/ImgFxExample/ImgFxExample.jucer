@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Q0wwB5" name="ImgFxExample" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="P79UrM" name="ImgFxExample">
+    <GROUP id="{C96EECCC-1AD6-8F84-5E8F-EA069835805B}" name="Source">
+      <FILE id="QrENrJ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="I3v6co" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="x4QAFB" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="imgfx" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="melatonin_blur" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" USE_MELATONIN_BLUR="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ImgFxExample"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ImgFxExample"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Archives/JUCE_8_0_6/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Archives/JUCE_8_0_6/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Archives/JUCE_8_0_6/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Archives/JUCE_8_0_6/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Archives/JUCE_8_0_6/modules"/>
+        <MODULEPATH id="imgfx" path="../../../../Modules"/>
+        <MODULEPATH id="melatonin_blur" path="../../../../Modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Archives/JUCE_8_0_6/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
